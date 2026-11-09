@@ -1,7 +1,7 @@
 # Local GTX real-LLM lab (Windows DirectML). Create:
 #   py -3 -m venv .venv-cuda
 #   .venv-cuda\Scripts\python -m pip install -r requirements-directml.txt
-torch==2.4.1
+torch==2.13.0
 torch-directml==0.2.5.dev240914
-transformers==4.44.2
+transformers==5.10.1
 tokenizers>=0.19,<0.20
